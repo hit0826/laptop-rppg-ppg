@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "laptop-rppg-ppg"
+version = "0.1.0"
+description = "Local webcam rPPG/PPG vital-sign estimation tools"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "opencv-python>=4.8",
+  "mediapipe>=0.10",
+  "matplotlib>=3.8",
+]
+
+[project.scripts]
+vitals-cam = "vitals_cam.app:main"
+vitals-video-eval = "vitals_cam.dataset_eval:main"
+vitals-session-analyze = "vitals_cam.analysis:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
