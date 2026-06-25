@@ -2,13 +2,11 @@
 
 ## 한국어
 
-노트북 웹캠으로 심박수(BPM)를 실험적으로 측정하는 Python 프로젝트입니다.
+노트북 웹캠 기반으로 심박수(BPM)를 실험적으로 측정하는 Python 프로젝트입니다.
 
 - `rPPG`: 얼굴 ROI의 색 변화로 비접촉 심박 신호를 추정합니다.
 - `PPG`: 손가락을 웹캠에 올려 녹색 채널 기반 접촉식에 가까운 맥파 신호를 추정합니다.
 - 측정 후 `sessions/` 폴더에 CSV, JSON 요약, PNG 그래프를 저장합니다.
-
-이 프로젝트는 학습/공학 실험용입니다. 의료기기가 아니며 진단, 치료, 안전 판단에 사용하면 안 됩니다.
 
 ### 포함된 파일
 
@@ -151,20 +149,8 @@ PPG 손가락 측정:
 └─ ppg_camera_measure.ps1
 ```
 
-### GitHub 업로드
 
-이 폴더 내용 전체를 새 GitHub 저장소의 루트로 올리면 됩니다.
-`sessions/`, `.venv/`, `__pycache__/`, 개인 측정 CSV/JSON/PNG 파일은 업로드하지 않습니다.
 
-## English
-
-This is a local Python webcam project for experimental BPM estimation.
-
-- `rPPG`: estimates pulse from subtle face color changes.
-- `PPG`: estimates pulse from a fingertip placed over the laptop webcam.
-- Each measurement saves CSV samples, a JSON summary, and a PNG graph under `sessions/`.
-
-This project is for learning and engineering experiments only. It is not a medical device and must not be used for diagnosis, treatment, or safety-critical decisions.
 
 ### Install
 
