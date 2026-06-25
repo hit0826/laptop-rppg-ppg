@@ -1,8 +1,9 @@
-# Laptop rPPG / PPG Vital Signs
+# camera-based laptop-rppg-ppg bio-signal measurement
 
 ## 한국어
 
 노트북 웹캠 기반으로 심박수(BPM)를 실험적으로 측정하는 Python 프로젝트입니다.
+자신의 bpm을 측정해봅시다
 
 - `rPPG`: 얼굴 ROI의 색 변화로 비접촉 심박 신호를 추정합니다.
 - `PPG`: 손가락을 웹캠에 올려 녹색 채널 기반 접촉식에 가까운 맥파 신호를 추정합니다.
