@@ -1,3 +1,4 @@
+<img width="1280" height="1034" alt="사진" src="https://github.com/user-attachments/assets/705cff4b-8846-4ebc-81d9-cb3d297413de" />
 # camera-based laptop-rppg-ppg bio-signal measurement
 
 ## 한국어
